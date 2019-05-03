@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.nz.login.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginBottom="30sp"
+        android:layout_width="100sp"
+        android:layout_height="100sp" />
+
+    <EditText
+        android:id="@+id/userNameText"
+    android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:hint="  User Name"
+    android:textStyle="bold|italic"
+    android:textColor="#ffff"
+    android:textSize="20sp"
+        android:padding="10sp"
+    android:layout_marginLeft="25sp"
+    android:layout_marginRight="25sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:hint="  Password"
+        android:textStyle="bold|italic"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:padding="10sp"
+        android:inputType="number"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+ <Button
+     android:layout_marginTop="10sp"
+     android:padding="10sp"
+     android:background="@drawable/background"
+     android:id="@+id/login"
+     android:textColor="#003d43"
+     android:textStyle="bold"
+     android:fontFamily="monospace"
+     android:text="LOGIN"
+     android:layout_width="100sp"
+     android:layout_height="50sp" />
+
+    <TextView
+        android:padding="15sp"
+        android:textStyle="italic"
+        android:id="@+id/textView"
+        android:textSize="17sp"
+        android:text="Your chance : "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
